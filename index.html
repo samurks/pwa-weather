@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clima PWA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Previsão do Tempo</h1>
+    <div class="city-name" id="cityName">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Carregando...</span>
+    </div>
+    <div class="weather-icon">
+      <i id="weatherIcon" class="fas fa-cloud size"></i>
+    </div>
+    <div class="temp" id="temperature">--°C</div>
+    <div class="weather-description" id="weatherDescription">Carregando...</div>
+    
+    <div class="details">
+      <div>
+        <i class="fas fa-wind icon"></i>
+        <span id="wind">-- km/h</span>
+      </div>
+      <div>
+        <i class="fas fa-tint icon"></i>
+        <span id="humidity">--%</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="src/main.js"></script>
+</body>
+</html>
